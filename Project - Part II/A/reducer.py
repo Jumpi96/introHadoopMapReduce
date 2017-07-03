@@ -19,7 +19,7 @@ for line in sys.stdin:
         countHits = 0
 
     oldKey = thisKey
-    countHits += int(thisHit)
+    countHits += 1
 
 if oldKey != None:
     print oldKey, "\t", countHits
